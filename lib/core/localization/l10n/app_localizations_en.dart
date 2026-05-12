@@ -1,0 +1,144 @@
+// ignore: unused_import
+import 'package:intl/intl.dart' as intl;
+import 'app_localizations.dart';
+
+// ignore_for_file: type=lint
+
+/// The translations for English (`en`).
+class AppLocalizationsEn extends AppLocalizations {
+  AppLocalizationsEn([String locale = 'en']) : super(locale);
+
+  @override
+  String get wateen => 'Wateen';
+
+  @override
+  String get home => 'Home';
+
+  @override
+  String get alsalam => 'Alsalam Alikom';
+
+  @override
+  String get courage =>
+      'Small consistent actions are better than big actions that don’t last';
+
+  @override
+  String get great => 'You are doing great ✨';
+
+  @override
+  String get keep => 'Keep going 💪';
+
+  @override
+  String get habits => 'Today\'s Habits';
+
+  @override
+  String get progress => 'Today\'s Progress';
+
+  @override
+  String get prayer => 'Prayer';
+
+  @override
+  String get fajr => 'Fajr';
+
+  @override
+  String get dhuhr => 'Dhuhr';
+
+  @override
+  String get asr => 'Asr';
+
+  @override
+  String get maghrib => 'Maghrib';
+
+  @override
+  String get isha => 'Eshaa';
+
+  @override
+  String get quran => 'Quran';
+
+  @override
+  String get azkar => 'Azkar';
+
+  @override
+  String get done => 'Done';
+
+  @override
+  String get not => 'Not Yet';
+
+  @override
+  String get surah => 'Surah';
+
+  @override
+  String get pages => 'Pages';
+
+  @override
+  String lastRead(Object page, Object surah) {
+    return 'Last surah is $surah page $page';
+  }
+
+  @override
+  String get emptyField => 'Please enter the page number';
+
+  @override
+  String get update => 'Update';
+
+  @override
+  String get startReading => 'Please start reading';
+
+  @override
+  String get morningAzkar => 'Morning Azkar';
+
+  @override
+  String get eveningAzkar => 'Evening Azkar';
+
+  @override
+  String get subhanAllah => 'Subhan Allah';
+
+  @override
+  String get alhamdulilah => 'Alhamdulilah';
+
+  @override
+  String get allahAkbar => 'Allah Akbar';
+
+  @override
+  String get laEllahEllaAllah => 'La Ellah Ella Allah';
+
+  @override
+  String get astaghfarAllah => 'Astaghfar Allah';
+
+  @override
+  String get press => 'Press to count';
+
+  @override
+  String get streak => 'Streak 🔥';
+
+  @override
+  String get increase => 'Streak increment';
+
+  @override
+  String get reset => 'Reset';
+
+  @override
+  String get days => 'Days';
+
+  @override
+  String get screens => 'App Screens';
+
+  @override
+  String get settings => 'Settings';
+
+  @override
+  String get dark => 'Dark Mode';
+
+  @override
+  String get light => 'Light Mode';
+
+  @override
+  String get language => 'Language';
+
+  @override
+  String get morningDes =>
+      'O Allah, by You we enter the morning and by You we enter the evening, by You we live and by You we die, and to You is the final return.\nWe have entered the morning and at this very time the whole kingdom belongs to Allah. Praise be to Allah. There is no worthy of worship except Allah Alone, with no partner. To Him belongs the kingdom and to Him belongs the praise. He gives life and causes death, and He is Capable of all things.\nWe have entered the morning upon the natural religion of Islam, the word of sincere devotion, the religion of our Prophet Muhammad (PBUH), and the faith of our father Abraham, a man of pure belief and a Muslim, and he was not of those who associate others with Allah.\nO Allah, I have entered the morning in blessing, health, and protection from You, so complete Your blessing, health, and protection upon me in this world and the Hereafter.\nO Allah, whatever blessing has come to me or to any of Your creation, it is from You Alone, with no partner, so for You is all praise and to You is all thanks.\nO Allah, I have entered the morning calling You to witness, and calling the bearers of Your Throne, Your angels, and all of Your creation to witness, that You are Allah, there is no god but You, Alone with no partner, and that Muhammad is Your servant and Messenger.\nMy Lord, all praise is due to You as is fitting for the Majesty of Your Face and the Greatness of Your Power.\nO Allah, grant me health in my body. O Allah, grant me health in my hearing. O Allah, grant me health in my sight. There is no god but You.\nO Allah, I seek refuge in You from anxiety and sorrow, and I seek refuge in You from inability and laziness, and I seek refuge in You from cowardice and miserliness, and I seek refuge in You from being overwhelmed by debt and the oppression of men.\nO Allah, I seek refuge in You from disbelief and poverty, and I seek refuge in You from the punishment of the grave. There is no god but You.\nIn the Name of Allah, Who with His Name nothing can cause harm in the earth nor in the heavens, and He is the All-Hearing, the All-Knowing.\nO Lord, I ask You for the good of this day and the good of what follows it, and I seek refuge in You from the evil of this day and the evil of what follows it.\nI am pleased with Allah as my Lord, with Islam as my religion, and with Muhammad (PBUH) as my Prophet and Messenger.\nO Allah, You are my Lord, there is no god but You. You created me and I am Your servant, and I abide by Your covenant and promise as much as I am able. I seek refuge in You from the evil of what I have done. I acknowledge Your blessing upon me and I acknowledge my sin, so forgive me, for indeed none forgives sins except You.\nAllah is sufficient for me; there is no god but He. In Him I have put my trust, and He is the Lord of the Great Throne.';
+
+  @override
+  String get eveningDes =>
+      'O Allah, by You we enter the evening and by You we enter the morning, by You we live and by You we die, and to You is the final return.\nWe have entered the evening and at this very time the whole kingdom belongs to Allah. Praise be to Allah. There is no worthy of worship except Allah Alone, with no partner. To Him belongs the kingdom and to Him belongs the praise. He gives life and causes death, and He is Capable of all things.\nWe have entered the evening upon the natural religion of Islam, the word of sincere devotion, the religion of our Prophet Muhammad (PBUH), and the faith of our father Abraham, a man of pure belief and a Muslim, and he was not of those who associate others with Allah.\nO Allah, I have entered the evening in blessing, health, and protection from You, so complete Your blessing, health, and protection upon me in this world and the Hereafter.\nO Allah, whatever blessing has come to me or to any of Your creation, it is from You Alone, with no partner, so for You is all praise and to You is all thanks.\nO Allah, I have entered the evening calling You to witness, and calling the bearers of Your Throne, Your angels, and all of Your creation to witness, that You are Allah, there is no god but You, Alone with no partner, and that Muhammad is Your servant and Messenger.\nMy Lord, all praise is due to You as is fitting for the Majesty of Your Face and the Greatness of Your Power.\nO Allah, grant me health in my body. O Allah, grant me health in my hearing. O Allah, grant me health in my sight. There is no god but You.\nO Allah, I seek refuge in You from anxiety and sorrow, and I seek refuge in You from inability and laziness, and I seek refuge in You from cowardice and miserliness, and I seek refuge in You from being overwhelmed by debt and the oppression of men.\nO Allah, I seek refuge in You from disbelief and poverty, and I seek refuge in You from the punishment of the grave. There is no god but You.\nIn the Name of Allah, Who with His Name nothing can cause harm in the earth nor in the heavens, and He is the All-Hearing, the All-Knowing.\nO Lord, I ask You for the good of this night and the good of what follows it, and I seek refuge in You from the evil of this night and the evil of what follows it.\nI am pleased with Allah as my Lord, with Islam as my religion, and with Muhammad (PBUH) as my Prophet and Messenger.\nO Allah, You are my Lord, there is no god but You. You created me and I am Your servant, and I abide by Your covenant and promise as much as I am able. I seek refuge in You from the evil of what I have done. I acknowledge Your blessing upon me and I acknowledge my sin, so forgive me, for indeed none forgives sins except You.\nAllah is sufficient for me; there is no god but He. In Him I have put my trust, and He is the Lord of the Great Throne.';
+}

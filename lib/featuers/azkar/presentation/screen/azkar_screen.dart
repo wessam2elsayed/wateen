@@ -25,13 +25,6 @@ class _AzkarScreenState extends State<AzkarScreen> {
 
   int selectedIndex = 0;
 
-  // @override
-  // void initState() {
-  //   super.initState();
-  //   final cubit = context.read<AzkarCubit>();
-    
-  // }
-
   @override
   Widget build(BuildContext context) {
     

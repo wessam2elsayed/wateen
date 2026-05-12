@@ -80,16 +80,11 @@ class _MainScreenState extends State<MainScreen> {
             ),
             BottomNavigationBarItem(
               icon:
-              // LottieBuilder.asset("assets/lottie/Reading in Quran.json",
-              // height: 40,width: 40,),
                SvgPicture.asset(
-                // "assets/icons/mosque-svgrepo-com.svg",
-                // color: AppColors.white,
                 "assets/icons/mosque-islam-svgrepo-com.svg",
-                // color: isDark
-                // ?AppColors.white
-                // : AppColors.black,
-                height: 25,width: 25,),
+                height: 25,
+                width: 25,
+                ),
               label: locale.prayer,
             ),
             BottomNavigationBarItem(
@@ -104,10 +99,6 @@ class _MainScreenState extends State<MainScreen> {
             BottomNavigationBarItem(
               icon: SvgPicture.asset(
                 "assets/icons/prayer-beads-svgrepo-com_(1).svg",
-                // "assets/icons/prayer-beads-svgrepo-com.svg",
-                // color: isDark
-                // ?AppColors.white
-                // : AppColors.black,
                 height: 25,width: 25,),
               label: locale.azkar,
             ),

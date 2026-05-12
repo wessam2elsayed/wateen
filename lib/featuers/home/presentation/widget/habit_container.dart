@@ -7,10 +7,8 @@ class HabitContainer extends StatelessWidget {
   final String txt;
   final String img;
   final double percent;
-  // final double progressValue;
   final VoidCallback onTap;
-  // final bool isDone;
-  // final ValueChanged<bool?> onCheckChanged;
+
 
   const HabitContainer({
     super.key, 
@@ -18,9 +16,6 @@ class HabitContainer extends StatelessWidget {
     required this.img, 
     required this.onTap,  
     required this.percent, 
-    // required this.progressValue,
-        // required this.isDone, 
-    // required this.onCheckChanged,
     });
 
   @override

@@ -51,17 +51,3 @@ class Wateen extends StatelessWidget {
     );
   }
 }
-
- // theme: ThemeData(
-            //   brightness: Brightness.light,
-            //   // primaryColor: AppColors.darkblue,
-            //   scaffoldBackgroundColor: Colors.white,
-            //   appBarTheme: const AppBarTheme(backgroundColor: AppColors.darkblue),
-            // ),
-
-            // darkTheme: ThemeData(
-            //   brightness: Brightness.dark,
-            //   scaffoldBackgroundColor: AppColors.black,
-            //   appBarTheme: const AppBarTheme(backgroundColor: AppColors.darkGray),
-            
-            // ),

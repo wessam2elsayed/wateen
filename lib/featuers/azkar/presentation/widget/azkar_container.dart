@@ -18,11 +18,9 @@ class AzkarContainer extends StatelessWidget {
     required this.targetCount, 
     required this.onTap, 
     required this.onPressed, 
-    required this.isDone});
+    required this.isDone
+    });
   
-
- 
-
   @override
   Widget build(BuildContext context) {
     final isDark = Theme.of(context).brightness == Brightness.dark;

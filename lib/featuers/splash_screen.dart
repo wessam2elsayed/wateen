@@ -31,9 +31,6 @@ class _SplashScreenState extends State<SplashScreen> {
           height: 200,
           decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(15),
-            // color: isDark
-            // ? AppColors.black
-            // :Colors.white,
             image: DecorationImage(
               image:isDark
               ? AssetImage("assets/images/dark_wateen.jpeg")

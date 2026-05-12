@@ -19,7 +19,6 @@ class PrayerContainer extends StatelessWidget {
     return Container(
       height: 60,
       margin: EdgeInsets.all(10),
-      // padding: EdgeInsets.all(10),
       decoration: BoxDecoration(
         color: isDark
           ? isDone? AppColors.darkGray:AppColors.gray
@@ -41,8 +40,7 @@ class PrayerContainer extends StatelessWidget {
             const SizedBox(width: 20,),
             LargeText(txt: txt),                          
               Spacer(),
-              // SmallText(txt: AppStrings.done),
-              // const SizedBox(width: 10,),
+
               Checkbox(
                 value: isDone, 
                 onChanged: onCheckChanged,

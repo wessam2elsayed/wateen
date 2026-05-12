@@ -66,8 +66,6 @@ class _StreakContainerState extends State<StreakContainer> {
                       )), 
                   ]
                 ),)
-              // // LargeText(txt: AppStrings.courage),
-              // LargeText(txt: text),
               
             ],
           ),

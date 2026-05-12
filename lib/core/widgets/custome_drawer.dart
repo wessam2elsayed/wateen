@@ -48,6 +48,14 @@ class CustomeDrawer extends StatelessWidget {
             child: ListView(
               children: [
                 DrawerItem(
+                  title:locale.home,
+                  onTap: (){
+                    Navigator.pop(context);
+                  Navigator.pushNamed(context, AppRoutes.main);
+                  }
+                ),
+
+                DrawerItem(
                   title:locale.prayer,
                   onTap: (){
                     Navigator.pop(context);
